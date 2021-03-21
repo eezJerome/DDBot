@@ -11,7 +11,7 @@ import numpy as np
 
 tokenizer = Tokenizer()
 
-data = open("Drake bot\data\songs.txt").read()
+data = open("Drake bot\drakesongs.txt").read()
 
 corpus = data.lower().split("\n")
 
@@ -47,4 +47,4 @@ adam = Adam(lr=5e-4)
 model.compile(loss='categorical_crossentropy', optimizer=adam, metrics=['accuracy'])
 
 history = model.fit(xs,ys, epochs=75, verbose=1)
-model.save(filepath='NLPtest1.h5',include_optimizer=True)
+model.save(filepath='NLPtest2.h5',include_optimizer=True)
