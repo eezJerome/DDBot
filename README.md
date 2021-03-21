@@ -1,9 +1,11 @@
 # DDBot
 Discord Drake Bot - an attempt at using RNNs and LSTMs for rapping bots
 
-link to h5 file with saved model and weights trained on like 50 songs of ~~kanye, drake, and anderson paak (i think...)~~ ab-soul 
+link to h5 file with saved model and weights trained on like 50 songs of ab-soul
 https://drive.google.com/file/d/1oatNL-LCre0cK2M73nYp8TT-h5xF95EI/view?usp=sharing
-edit: i done messed up my training; need to train on the drake dataset lmao
+
+link to h5 file with saved model and weights trained on like 50 songs of drake
+https://drive.google.com/file/d/1Ox9P2bGjj1MODJGqzuQNeeQIG4hqkiVu/view?usp=sharing
 
 i ripped the code from NLP: Zero to Hero tutorial by Tensorflow because i'm a terrible human being.
 
